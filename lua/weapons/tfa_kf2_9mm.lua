@@ -13,7 +13,7 @@ SWEP.PrintName			= "9mm Pistol"		-- Weapon name (Shown on HUD)
 SWEP.Slot				= 1				-- Slot in the weapon selection menu.  Subtract 1, as this starts at 0.
 SWEP.Spawnable			= true --Can you, as a normal user, spawn this?
 SWEP.AdminSpawnable		= true --Can an adminstrator spawn this?  Does not tie into your admin mod necessarily, unless its coded to allow for GMod's default ranks somewhere in its code.  Evolve and ULX should work, but try to use weapon restriction rather than these.
- 
+
 SWEP.MuzzleFlashEffect          = "kf2_muzzle_pistol"
 
 --[[WEAPON HANDLING]]--
