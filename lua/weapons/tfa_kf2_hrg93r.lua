@@ -18,7 +18,7 @@ SWEP.MuzzleFlashEffect          = "kf2_muzzle_pistol"
 
 --[[WEAPON HANDLING]]--
 SWEP.Primary.Sound = Sound("TFA_KF2.9MM.Fire") -- This is the sound of the weapon, when you shoot.
-SWEP.Primary.EchoFire = Sound("TFA_KF2.9MM.EchoFireB") -- This is the distant sound of the weapon, when you shoot. Yeah.
+SWEP.Primary.EchoFire = Sound("TFA_KF2.9MM.EchoFire") -- This is the distant sound of the weapon, when you shoot. Yeah.
 SWEP.Primary.PenetrationMultiplier = 10 --Change the amount of something this gun can penetrate through
 SWEP.Primary.Damage = (engine.ActiveGamemode() == "zombiesurvival" and 31) or 12 -- Damage, in standard damage points.
 SWEP.Primary.NumShots = 1 --The number of shots the weapon fires.  SWEP.Shotgun is NOT required for this to be >1.
