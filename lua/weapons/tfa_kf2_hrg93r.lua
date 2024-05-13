@@ -33,7 +33,7 @@ SWEP.OnlyBurstFire = false --No auto, only burst/single?
 
 --Ammo Related
 SWEP.Primary.ClipSize = 30 -- This is the size of a clip
-SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 5 -- This is the number of bullets the gun gives you, counting a clip as defined directly above.
+SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 4 -- This is the number of bullets the gun gives you, counting a clip as defined directly above.
 SWEP.Primary.Ammo = "pistol" -- What kind of ammo.  Options, besides custom, include pistol, 357, smg1, ar2, buckshot, slam, SniperPenetratedRound, and AirboatGun.
 SWEP.Primary.AmmoConsumption = 1 --Ammo consumed per shot
 
